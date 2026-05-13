@@ -1,0 +1,236 @@
+/* =========================
+   BASE
+========================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #1b1b1b;
+    color: #eaeaea;
+}
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* =========================
+   LAYOUT (FILTERS ABOVE TABLE)
+========================= */
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* =========================
+   FILTER PANEL (5 ROWS)
+========================= */
+
+.filter-container {
+    margin-bottom: 20px;
+}
+
+.filter-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.filter-row .toggle-btn {
+    flex: 1;
+}
+
+.filter-row:last-child {
+    margin-bottom: 0;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.toggle-btn {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #444;
+    background: #2a2a2a;
+    color: #ddd;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 14px;
+}
+
+.toggle-btn:hover {
+    background: #3a3a3a;
+}
+
+.toggle-btn.active-btn {
+    background: #4a90e2;
+    border-color: #4a90e2;
+    color: white;
+}
+
+/* =========================
+   TABLE
+========================= */
+
+.tense-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #242424;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 1400px;
+    overflow: visible;
+    z-index: 1;
+    line-height: 1.6;
+}
+
+.tense-table th {
+    font-weight: 100;
+    color: grey;
+}
+
+.tense-table th,
+.tense-table td {
+    border: 1px solid #3a3a3a;
+    padding: 10px;
+    
+}
+
+.tense-name {
+    font-weight: bold;
+    width: 120px;
+    font-weight: 100;
+    color: grey;
+}
+
+.tense-name {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/* =========================
+   HIDE SYSTEM
+========================= */
+
+.hidden {
+    display: none !important;
+}
+
+/* =========================
+   FEATURES (DEFAULT = OFF)
+========================= */
+
+/* grammar НЕ выделяется пока feature OFF */
+.grammar {
+    color: inherit;
+    transition: 0.2s;
+}
+
+.grammar.active {
+    color: #ffcc66;
+}
+
+/* tense markers НЕ выделяются пока OFF */
+.tense-marker {
+    color: inherit;
+    transition: 0.2s;
+}
+
+.tense-marker.active {
+    color: #66b3ff;
+}
+
+/* =========================
+   TRANSLATION TOOLTIP
+========================= */
+
+.voice-block {
+    position: relative;
+}
+
+.voice-block:hover .translation {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.translation {
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    background: #ffffff;
+    color: #000000;
+    padding: 10px;
+    border-radius: 6px;
+
+    width: 100%;
+
+    opacity: 0;
+    transform: translateY(-5px);
+    transition: 0.2s;
+
+    pointer-events: none;
+    z-index: 9999;
+}
+
+/* =========================
+   HOVER HIGHLIGHT (LIGHT UX)
+========================= */
+
+.tense-table td:not(.tense-name) div:hover {
+    outline: 1px solid #555;
+}
+
+h1{
+    font-size: 48px;
+    color: rgb(141, 141, 141);
+}
+
+h2{
+    font-size: 31px;
+    color: rgb(65, 65, 65);
+    margin-top: -30px;
+    font-weight: 200;
+}
+
+.comment{
+    color: grey;
+}
+
+.corner-image {
+    position: fixed;
+
+    right: 0px;
+    bottom: -80px;
+
+    width: 520px;
+
+    opacity: 0.95;
+
+    pointer-events: none;
+
+    z-index: 0;
+}
+
+.important{
+    color: rgb(174, 49, 49);
+}
+
+.speaker-1{
+    font-weight: bold;
+    color: rgb(239, 148, 221);
+}
+
+.speaker-2{
+    font-weight: bold;
+    color: rgb(131, 181, 215);
+}
