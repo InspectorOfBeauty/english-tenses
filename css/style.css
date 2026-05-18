@@ -1,6 +1,12 @@
-/* =========================
-   BASE
-========================= */
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Send+Flowers&display=swap');
+
+
+.vine-text {
+  font-family: "Great Vibes", cursive;
+}
+
+/* BASE */
 
 body {
     margin: 0;
@@ -9,29 +15,63 @@ body {
     color: #eaeaea;
 }
 
-main {
+.container{
     max-width: 1400px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* =========================
-   LAYOUT (FILTERS ABOVE TABLE)
-========================= */
+/* LAYOUT (FILTERS ABOVE TABLE) */
 
-.table-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+h1{
+    font-family: "Abril Fatface", serif;
+    font-size: 66px;
+    font-weight: 500;
+    color: #4a90e2;
 }
 
-/* =========================
-   FILTER PANEL (5 ROWS)
-========================= */
+.subtitile{
+    font-family: "Send Flowers", cursive;
+    margin-top: -60px;
+    margin-bottom: 40px;
 
-.filter-container {
-    margin-bottom: 20px;
+    font-size: 40px;
+    color: #aaaaaa;
+
+    line-height: 1.5;
+
+    margin-bottom: 60px;
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(65, 65, 65);
+    font-weight: 200;
+}
+
+/* TOP PANEL (5 ROWS) */
+.top-panel{
+    align-items: stretch; /*все вложенные элементы будут одной высоты (фильтры, описание)*/
+    height: 295px;
+
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+
+    position: relative;
+    z-index: 9999;
+}
+
+/* FILTER PANEL (5 ROWS) */
+.filters{
+    width: 350px;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 20px;
+    border: 1px solid #3a3a3a;
+    border-radius: 20px;
 }
 
 .filter-row {
@@ -51,9 +91,7 @@ main {
     margin-bottom: 0;
 }
 
-/* =========================
-   BUTTONS
-========================= */
+/* BUTTONS */
 
 .toggle-btn {
     padding: 6px 12px;
@@ -76,20 +114,123 @@ main {
     color: white;
 }
 
-/* =========================
-   TABLE
-========================= */
+/* DESCRIPTION */
+.tense-meta{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    max-height: 100%;
+    overflow: auto;
+
+    padding: 0 20px 20px;
+    border: 1px solid #444;
+    border-radius: 20px;
+
+    font-size: 20px;
+    color: #ddd;
+
+    z-index: 2;
+    line-height: 1.5;
+}
+
+.meta-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.meta{
+    flex: 1;
+
+    padding: 20px;
+    border: 1px solid #444;
+    background: #2a2a2a;
+    border-radius: 10px;
+
+    line-height: 1.3;
+}
+
+.meta.selected {
+    border: 2px solid #4a90e2;
+}
+
+.construction, .description, .markers{
+    padding-left: 15px;
+}
+
+.meta .name{
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.meta .construction {
+    color: #ffcc66;
+}
+
+.meta .description{
+    font-size: 18px;
+    color: #a9a9a9;
+}
+
+.markers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.marker{
+    font-size: 15px;
+    padding: 4px 15px;
+    background: #47505b;
+    border: 1px solid #3a3a3a;
+    border-radius: 20px;
+}
+
+
+/* STUB */
+
+.stub{
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0 20px 20px;
+}
+
+.stub-title{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.stub-description{
+    font-size: 20px;
+    color: rgb(97, 97, 97);
+}
+
+/* TABLE */
 
 .tense-table {
+    font-size: 18px;
+
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
     background: #242424;
-    border-radius: 8px;
-    overflow: hidden;
-    max-width: 1400px;
+    border: 1px solid #3a3a3a;
+    border-radius: 15px;
     overflow: visible;
-    z-index: 1;
-    line-height: 1.6;
+    max-width: 1400px;
+
+    position: relative;
+    z-index: 9999;
+
+    line-height: 1.4;
 }
 
 .tense-table th {
@@ -99,27 +240,81 @@ main {
 
 .tense-table th,
 .tense-table td {
-    border: 1px solid #3a3a3a;
+    border-right: 1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
     padding: 10px;
-    
 }
+
+.tense-table tr:last-child td {
+    border-bottom: none;
+}
+
+.tense-table th:last-child,
+.tense-table td:last-child {
+    border-right: none;
+}
+
+
+/* =========================
+   TENSE NAME (INTERACTIVE CELL)
+========================= */
 
 .tense-name {
     font-weight: bold;
     width: 120px;
     font-weight: 100;
     color: grey;
-}
 
-.tense-name {
     text-align: center;
     vertical-align: middle;
+
+    width: 140px;
+    text-align: center;
+    vertical-align: middle;
+
+    font-weight: 500;
+    color: #b5b5b5;
+
+    cursor: pointer;
+    user-select: none;
+
+    padding: 12px 10px;
+
+    transition: all 0.2s ease;
+
+    position: relative;
+}
+
+/* hover — основной интерактив */
+.tense-name:hover {
+    background: rgba(74, 144, 226, 0.10);
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+/* лёгкий "glow" как у активных элементов */
+.tense-name:hover::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    box-shadow: 0 0 0 1px rgba(74, 144, 226, 0.25);
+    pointer-events: none;
+}
+
+/* активное состояние (если выбрано в JS) */
+.tense-name.active {
+    background: rgba(74, 144, 226, 0.18);
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* эффект нажатия */
+.tense-name:active {
+    transform: scale(0.98);
 }
 
 
-/* =========================
-   HIDE SYSTEM
-========================= */
+/* HIDE SYSTEM */
 
 .hidden {
     display: none !important;
@@ -135,7 +330,8 @@ main {
     transition: 0.2s;
 }
 
-.grammar.active {
+.grammar.active, 
+.irregular-verb-2 {
     color: #ffcc66;
 }
 
@@ -149,22 +345,21 @@ main {
     color: #66b3ff;
 }
 
-/* =========================
-   TRANSLATION TOOLTIP
-========================= */
+/* TRANSLATION TOOLTIP */
 
-.voice-block {
+.example {
     position: relative;
+    cursor: pointer;
 }
 
-.voice-block:hover .translation {
+.example:hover .translation {
     opacity: 1;
     transform: translateY(0);
 }
 
 .translation {
     position: absolute;
-    top: 100%;
+    top: 110%;
     left: 0;
 
     background: #ffffff;
@@ -172,7 +367,7 @@ main {
     padding: 10px;
     border-radius: 6px;
 
-    width: 100%;
+    width: 97%;
 
     opacity: 0;
     transform: translateY(-5px);
@@ -182,25 +377,14 @@ main {
     z-index: 9999;
 }
 
-/* =========================
-   HOVER HIGHLIGHT (LIGHT UX)
-========================= */
-
-.tense-table td:not(.tense-name) div:hover {
-    outline: 1px solid #555;
+.passive-voice {
+    background: rgb(54, 54, 54);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
 }
 
-h1{
-    font-size: 48px;
-    color: rgb(141, 141, 141);
-}
-
-h2{
-    font-size: 31px;
-    color: rgb(65, 65, 65);
-    margin-top: -30px;
-    font-weight: 200;
-}
+/* HOVER HIGHLIGHT (LIGHT UX) */
 
 .comment{
     color: grey;
@@ -222,7 +406,7 @@ h2{
 }
 
 .important{
-    color: rgb(174, 49, 49);
+    color: rgb(223, 109, 109);
 }
 
 .speaker-1{
@@ -233,4 +417,95 @@ h2{
 .speaker-2{
     font-weight: bold;
     color: rgb(131, 181, 215);
+}
+
+.filter-wrapper {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+    gap: 20px;
+}
+
+#filters-button{
+    width: 100%;
+    display: block;
+
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #3a3a3a;
+    background: transparent;
+    color: #ddd;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#filters-button:hover {
+    border: 1px solid #3a3a3a;
+    background: #3a3a3a;
+}
+
+/* ===== SCROLLBAR (Chrome, Edge, Safari) ===== */
+
+.tense-meta::-webkit-scrollbar {
+    width: 13px;
+}
+
+.tense-meta::-webkit-scrollbar-track {
+    background: transparent;   /* фон трека */
+    border-radius: 30px;
+}
+
+.tense-meta::-webkit-scrollbar-thumb {
+    background: #444;      /* сам ползунок */
+    border-radius: 30px;
+    border: 2px solid #1f1f1f;
+}
+
+.tense-meta::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+.empty-state .meta-container,
+.empty-state #table-body {
+    display: none;
+}
+
+.empty-state [data-stub] {
+    display: block;
+}
+
+.corner-image {
+    position: fixed;
+
+    right: 0px;
+    bottom: -80px;
+
+    width: 520px;
+
+    opacity: 0.95;
+
+    pointer-events: none;
+
+    z-index: 0;
+}
+
+.tense-video {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    z-index: 99999;
+
+    opacity: 0.7;
+
+    display: none;
+    background: black;
 }
