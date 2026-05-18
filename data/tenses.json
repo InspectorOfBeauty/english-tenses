@@ -5,7 +5,7 @@
         "tense": "Future Perfect Continuous",
         "construction": "Subject + will have been + V-ing",
         "description": "Используется для выражения продолжительности действия к определенному моменту в будущем.",
-        "markers": ["for an hour", "for two months", "for three yesrs", "for a long time", "by the time", "by tomorrow", "by next week / month / year", "by 2027"]
+        "markers": ["for an hour", "for two months", "for three years", "for a long time", "by the time", "by tomorrow", "by next week / month / year", "by 2027"]
     },
 
     "question": {
@@ -122,7 +122,7 @@
     "question": {
         "active": [
             {
-                "english": "Will I be making syrnik at 11 o'clock?",
+                "english": "Will I be making syrniki at 11 o'clock?",
                 "russian": "Я буду готовить сырники в 11 часов?",
                 "comment": "Действие в процессе."
             },
@@ -657,7 +657,7 @@
             },
 
             {
-                "english": "Was I making syrniki when Stas called me yesterday?.",
+                "english": "Was I making syrniki when Stas called me yesterday?",
                 "russian": "Стас позвонил мне, когда я готовила сырники вчера?",
                 "comment": "Ситуация, когда одно действие прерывает другое."
             }
