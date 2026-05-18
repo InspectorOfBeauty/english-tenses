@@ -1,0 +1,945 @@
+[
+
+  {
+    "meta": {
+        "tense": "Future Perfect Continuous",
+        "construction": "Subject + will have been + V-ing",
+        "description": "Используется для выражения продолжительности действия к определенному моменту в будущем.",
+        "markers": ["for an hour", "for two months", "for three yesrs", "for a long time", "by the time", "by tomorrow", "by next week / month / year", "by 2027"]
+    },
+
+    "question": {
+        "active":[
+            {
+                "english": "Will I have been making syrniki for two hours by 11 o'clock?",
+                "russian": "Протолкусь ли я с сырниками 2 часа к 11:00?",
+                "comment": null
+            }
+        ],
+
+        "passive": []
+    }, 
+
+    "statement": {
+        "active": [
+            {
+                "english": "By 11 o'clock, I will have been making syrniki for two hours.",
+                "russian": "К 11 часам я протолкусь с сырниками 2 часа.",
+                "comment": null
+            }
+        ],
+
+        "passive": []
+    },
+
+    "negation": {
+        "active": [
+            {
+                "english": "By 11 o'clock, I won't have been making syrniki for two hours, will I?",
+                "russian": "К 11:00 я же не протолкусь с сырниками 2 часа, ведь так?",
+                "comment": null
+            }
+        ],
+
+        "passive": []
+    }
+  }, 
+  
+  {
+    "meta": {
+        "tense": "Future Perfect",
+        "construction": "Subject + will have + V3 (Past Participle)",
+        "description": "Используется для выражения достигнутого результата действия к определенному моменту в будущем.",
+        "markers": ["by the time", "by tomorrow", "by next week / month / year", "by 2027"]
+    },
+
+    "question": {
+        "active": [
+            {
+                "english": "Will I have made syrniki by the time Dima comes from work?",
+                "russian": "Я же успею приготовить сырники к тому моменту, когда Дима придет с работы?",
+                "comment": null
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Will syrniki have been made by the time Dima comes from work?",
+                "russian": "Сырники же будут уже приготовлены к тому моменту, когда Дима придет с работы?",
+                "comment": null
+            }
+        ]
+        
+    }, 
+
+    "statement": {
+        "active": [
+            {
+                "english": "I will have made syrniki by the time Dima comes from work.",
+                "russian": "Я успею приготовить сырники к тому моменту, когда Дима придет с работы.",
+                "comment": null
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Syrniki will have been made by the time Dima comes from work.",
+                "russian": "Сырники будут готовы к тому моменту, когда Дима придет с Работы.",
+                "comment": null
+            }
+        ]
+    },
+
+    "negation": {
+        "active": [
+            {
+                "english": "I won't have made syrniki by the time Dima comes from work.",
+                "russian": "Я не успею приготовить сырники к тому моменту, когда Дима придет с работы.",
+                "comment": null
+            }
+
+        ],
+
+        "passive": [
+            {
+                "english": "Syrniki won't have been made by the time Dima comes from work.",
+                "russian": "Сырники еще не будут готовы к тому моменту, когда Дима придет с работы.",
+                "comment": null
+            }
+        ]
+    }
+    
+  },
+
+  {
+    "meta": {
+        "tense": "Future Continuous",
+        "construction": "Subject + will be + V-ing",
+        "description": "Используется, когда нужно подчеркнуть, что действие будет находиться в процессе (или будет сколько-то длиться) в определённый момент в будущем.",
+        "markers": ["at 5 o'clock", "at 8 p.m. tomorrow", "at this time tomorrow / next week", "all day tomorrow", "all evening", "from 3 to 5 p.m."]
+    },
+
+    "question": {
+        "active": [
+            {
+                "english": "Will I be making syrnik at 11 o'clock?",
+                "russian": "Я буду готовить сырники в 11 часов?",
+                "comment": "Действие в процессе."
+            },
+
+            {
+                "english": "Will I be making syrniki from 10 to 11 a.m. tomorrow?",
+                "russian": "Завтра с 10 до 11 утра я буду готовить сырники?",
+                "comment": "Процесс действия в течение определенного периода времени в будущем."
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Will syrniki be being made at 11 o'clock?",
+                "russian": "Будут ли сырники находиться в процессе приготовления в 11 часов?",
+                "comment": "Пассивная форма почти никогда не используется и заменяется на Future Simple: \"Will syrniki be made at 11 o'clock\"."
+            }
+        ]
+        
+    }, 
+
+    "statement": {
+        "active": [
+            {
+                "english": "Galya: Don't call me at 11 o'clock. I'll be making syrniki for Dima at that time.",
+                "russian": "Галя: Не звони мне в 11 часов. В это время я буду готовить сырники для Димы.",
+                "comment": "Действие в процессе."
+            },
+
+            {
+                "english": "Stas: I got you.",
+                "russian": "Стас: Понял тебя.",
+                "comment": null
+            },
+
+            {
+                "english": "I'll be making syrniki from 10 to 11 a.m. tomorrow.",
+                "russian": "Завтра я буду готовить сырники с 10 до 11 утра.",
+                "comment": "Процесс действия в течение определенного периода времени в будущем."
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Syrniki will be being made at 11 o'clock.",
+                "russian": "Сырники будут находиться в процессе приготовления в 11 часов.",
+                "comment": "Пассивная форма почти никогда не используется и заменяется на Future Simple: \"Syrniki will be made at 11 o'clock\"."
+            }
+        ]
+    },
+
+    "negation": {
+        "active": [
+            {
+                "english": "Galya: Drop in on me at 11 o'clock. Anyway, I won't be making syrniki for Dima at that time.",
+                "russian": "Галя: Загляни ко мне в 11 часов. В любом случае, я не буду готовить сырники для Димы в это время.",
+                "comment": "Действие в процессе (жарка сырников)."
+            }, 
+
+            {
+                "english": "Stas: Not a word! I got you.",
+                "russian": "Стас: Понял. Ни слова больше!",
+                "comment": null
+            },
+
+            {
+                "english": "I won't be making syrniki from 10 to 11 a.m. tomorrow.",
+                "russian": "Завтра я не буду готовить сырники с 10 до 11 утра.",
+                "comment": "Процесс действия в течение определенного периода времени в будущем."
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Syrniki won't be being made at 11 o'clock.",
+                "russian": "Сырники не будут находиться в процессе приготовления в 11 часов.",
+                "comment": "Пассивная форма почти никогда не используется и заменяется на Future Simple: \"Syrniki won't be made at 11 o'clock\"."
+            }
+        ]
+    }
+    
+  },
+  
+  {
+    "meta": {
+        "tense": "Future Simple",
+        "construction": "Subject + will + V",
+        "description": "Используется для выражения действия, которое произойдет в будущем как факт, без акцента на процесс. <br/>Основные случаи: 1) факт в будущем; 2) спонтанное желание (в момент речи); 3) предсказание, мнение о будущем; 4) обещание, предложение, угроза.",
+        "markers": ["tomorrow", "the day after tomorrow", "nex week / month / year", "next Monday", "soon", "later", "in a few minutes"]
+    },
+
+    "question": {
+        "active": [
+            {
+                "english": "Dima: I'd like to have syrniki for dinner tomorrow. Will you make them for me?",
+                "russian": "Дима: Я бы хотел сырники на ужин завтра. Сделаешь их для меня?",
+                "comment": "Вежливая просьба сделать сырники."
+            }, 
+
+            {
+                "english": "Galya: What? Will I make them for you tomorrow? Honey, you know where the kitchen is.",
+                "russian": "Галя: Что? Сделать для тебя сырники завтра? Зайчик, ты знаешь, где кухня.",
+                "comment": "Спонтанный отказ, принятое решение в момент разговора."
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Will syrniki be made?",
+                "russian": "Сырники приготовят?",
+                "comment": "Факт в будущем."
+            }
+        ]
+        
+    }, 
+
+    "statement": {
+        "active": [
+            {
+                "english": "Dima: I'd like to have syrniki for dinner.",
+                "russian": "Дима: Я бы хотел сырники на ужин.",
+                "comment": null
+            }, 
+
+            {
+                "english": "Galya: OK, I'll make them for you.",
+                "russian": "Галя: Я сделаю их для тебя.",
+                "comment": "Спонтанное решение в момент разговора."
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Syrniki will be made.",
+                "russian": "Сырники приготовят.",
+                "comment": "Факт в будущем."
+            }
+        ]
+    },
+
+    "negation": {
+        "active": [
+            {
+                "english": "Dima: I'd like to have syrniki for dinner.",
+                "russian": "Дима: Я бы хотел сырники на ужин.",
+                "comment": null
+            }, 
+
+            {
+                "english": "Galya: Sorry, I won't make them. I'm too exhausted.",
+                "russian": "Галя: Извини, я не буду их готовить. Я слишком устала.",
+                "comment": "Спонтанный отказ, принятое решение в момент разговора."
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Syrniki won't be made.",
+                "russian": "Сырники не приготовят.",
+                "comment": "Факт в будущем."
+            }
+        ]
+    }
+    
+  }, 
+  
+  {
+    "meta": {
+        "tense": "Present Continuous",
+        "construction": "Subject + to be + V-ing",
+        "description": "Используется для выражения действия, происходящего прямо сейчас, либо временной ситуации, запланированного будущего, раздражающей повторяющейся ситуации.",
+        "markers": ["now", "right now", "at the moment", "currently", "today", "this week"]
+    },
+
+    "question": {
+        "active": [
+            {
+                "english": "Am I making syrniki for Dima now?",
+                "russian": "Я сейчас готовлю сырники для Димы?",
+                "comment": "Действие происходит прямо сейчас."
+            }, 
+
+            {
+                "english": "Am I going to make syrniki for Dima this weekend?",
+                "russian": "Я собираюсь готовить сырники для Димы в эти выходные?",
+                "comment": "Ничего не готово, только запланировано в будущем."
+            }, 
+
+            {
+                "english": "Am I making syrniki for Dima this weekend?",
+                "russian": "Я готовлю сырники для Димы в эти выходные?",
+                "comment": "Все подготовлено, 100% готовлю в будущем."
+            }
+
+        ],
+
+        "passive": [
+            {
+                "english": "Are the syrniki being made now?",
+                "russian": "Сырники сейчас готовятся?",
+                "comment": "Действие происходит прямо сейчас."
+            }, 
+
+            {
+                "english": "Are syrniki going to be made for Dima this weekend?",
+                "russian": "Собираются ли приготовить сырники для Димы в эти выходные?",
+                "comment": "Ничего не готово, только запланировано в будущем."
+            },
+
+            {
+                "english": "Are the syrniki being made this weekend?",
+                "russian": "Сырники готовятся в эти выходные?",
+                "comment": "Все подготовлено, 100% готовят в будущем. (грамматически возможно, но редко используется)"
+            }
+        ]
+        
+    }, 
+
+    "statement": {
+        "active": [
+            {
+                "english": "I'm making syrniki for Dima now.",
+                "russian": "Я сейчас готовлю сырники для Димы.",
+                "comment": "Действие происходит прямо сейчас."
+            }, 
+
+            {
+                "english": "I'm going to make some syrniki for Dima this weekend.",
+                "russian": "Я собираюсь приготовить сырники для Димы в эти выходные.",
+                "comment": "Ничего не готово, только запланировала в будущем."
+            }, 
+
+            {
+                "english": "I'm making syrniki for Dima this weekend.",
+                "russian": "В эти выходные я готовлю сырники для Димы.",
+                "comment": "Все подготовлено, 100% готовлю в будущем."
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Syrniki are being made now.",
+                "russian": "Сырники сейчас готовятся.",
+                "comment": "Действие происходит прямо сейчас."
+            }, 
+
+            {
+                "english": "Syrniki are going to be made for Dima this weekend.",
+                "russian": "Собираются приготовить сырники для Димы в эти выходные.",
+                "comment": "Ничего не готово, только запланировано в будущем."
+            },
+
+            {
+                "english": "Syrniki are being made this weekend?",
+                "russian": "Сырники готовятся в эти выходные.",
+                "comment": "Все подготовлено, 100% готовят в будущем. (грамматически возможно, но редко используется)"
+            }
+        ]
+    },
+
+    "negation": {
+        "active": [
+            {
+                "english": "I'm not making syrniki for Dima now.",
+                "russian": "Я не готовлю сырники для Димы сейчас.",
+                "comment": "Отрицание действия, происходящего прямо сейчас."
+            }, 
+
+            {
+                "english": "I'm not going to make some syrniki for Dima this weekend.",
+                "russian": "Я не собираюсь готовить сырники для Димы в эти выходные.",
+                "comment": "Отрицание намерения на будущее."
+            }, 
+
+            {
+                "english": "I'm not making syrniki for Dima this weekend.",
+                "russian": "В эти выходные я не готовлю сырники для Димы.",
+                "comment": "Отрицание запланированного действия."
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Syrniki aren't being made now.",
+                "russian": "Сырники сейчас не готовят.",
+                "comment": "Действие не происходит прямо сейчас."
+            }, 
+
+            {
+                "english": "Syrniki aren't going to be made for Dima this weekend.",
+                "russian": "Сырники для Димы не собираются готовить в эти выходные.",
+                "comment": "Отрицание намерения на будущее."
+            },
+
+            {
+                "english": "Syrniki aren't being made this weekend.",
+                "russian": "Сырники не готовятся в эти выходные.",
+                "comment": "Отрицание запланированного действия в будущем. (грамматически возможно, но редко используется)"
+            }
+        ]
+    }
+    
+  }, 
+
+  {
+    "meta": {
+        "tense": "Present Perfect",
+        "construction": "Subject + have/has + V3 (Past Participle)",
+        "description": "Используется для выражения результата в настоящем, жизненного опыта, актуального недавнего действия.",
+        "markers": ["just", "already", "yet", "ever / never", "for", "since"]
+    },
+
+    "question": {
+        "active": [
+            {
+                "english": "Have I already made syrniki for Dima?",
+                "russian": "Я уже приготовила Сырники для Димы?",
+                "comment": "Результат действия в настоящем."
+            }, 
+
+            {
+                "english": "How many syrniki have I made?",
+                "russian": "Сколько сырников я приготовила?",
+                "comment": "Результат действия в настоящем (количество)."
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Have syrniki already been made?",
+                "russian": "Сырники уже приготовлены?",
+                "comment": "Результат действия в настоящем."
+            }, 
+
+            {
+                "english": "Have 20 syrniki been made?",
+                "russian": "Были приготовлено 20 сырников?",
+                "comment": "Результат действия в настоящем (количество)."
+            }
+        ]
+        
+    }, 
+
+    "statement": {
+        "active": [
+            {
+                "english": "I've just made syrniki for Dima.",
+                "russian": "Я только что приготовила сырники для Димы.",
+                "comment": "Только что завершённое действие с результатом в настоящем."
+            }, 
+
+            {
+                "english": "I've made 20 syrniki.",
+                "russian": "Я приготовила 20 сырников.",
+                "comment": "Результат действия в настоящем (количество)."
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Syrniki have just been made.",
+                "russian": "Сырники только что были приготовлены.",
+                "comment": "Только что завершённое действие с результатом в настоящем."
+            },
+
+            {
+                "english": "20 syrniki have been made.",
+                "russian": "Было приготовлено 20 сырников.",
+                "comment": "Результат действия в настоящем (количество)."
+            }
+        ]
+    },
+
+    "negation": {
+        "active": [
+            {
+                "english": "I haven't made syrniki for Dima yet.",
+                "russian": "Я еще не приготовила сырники для Димы.",
+                "comment": "Отрицание результата в настоящем (результат ожидается в будущем)."
+            }, 
+
+            {
+                "english": "I haven't made 20 syrniki yet.",
+                "russian": "Я еще не приготовила 20 сырников.",
+                "comment": "Отрицание результата в настоящем (количество)."
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Syrniki haven't been made yet.",
+                "russian": "Сырники еще не приготовлены.",
+                "comment": "Отрицание результата в настоящем (результат ожидается в будущем)."
+            },
+
+            {
+                "english": "20 syrniki haven't been made yet.",
+                "russian": "20 сырников еще не готовы.",
+                "comment": "Отрицание результата в настоящем (количество)."
+            }
+        ]
+    }
+    
+  },
+
+  {
+    "meta": {
+        "tense": "Present Perfect Continuous",
+        "construction": "Subject + have/has been + V-ing",
+        "description": "Используется для выражения длительности действия, которое началось в прошлом и всё ещё продолжается сейчас.",
+        "markers": ["for an hour", "for two days", "for a long time", "since", "all day", "all week", "recently"]
+    },
+
+    "question": {
+        "active": [
+            {
+                "english": "Have I been making syrniki for two hours?",
+                "russian": "Я готовлю сырники уже два часа?",
+                "comment": "Длительность действия, начавшегося в прошлом и продолжающегося до настоящего момента."
+            }
+        ],
+
+        "passive": []
+        
+    }, 
+
+    "statement": {
+        "active": [
+            {
+                "english": "I've been making syrniki for two hours.",
+                "russian": "Я готовлю сырники уже два часа.",
+                "comment": "Длительность действия, начавшегося в прошлом и продолжающегося до настоящего момента."
+            }
+        ],
+
+        "passive": []
+    },
+
+    "negation": {
+        "active": [
+            {
+                "english": "I haven't been making syrniki for two hours, have I?",
+                "russian": "Я не готовлю сырники уже два часа, ведь так?",
+                "comment": "Отрицание длительности действия, начавшегося в прошлом и продолжающегося до настоящего момента."
+            }
+        ],
+
+        "passive": []
+    }
+    
+  },
+
+  {
+    "meta": {
+        "tense": "Past Simple",
+        "construction": "Subject + V-ed/V2",
+        "description": "Используется для выражения завершенного действия в прошлом.",
+        "markers": ["yesterday", "two days ago", "last week / month / year", "in 2026"]
+    },
+
+    "question": {
+        "active": [
+            {
+                "english": "Did I make syrniki yesterday?",
+                "russian": "Я вчера приготовила сырники?",
+                "comment": null
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Were syrniki made yesterday?",
+                "russian": "Сырники приготовили вчера?",
+                "comment": null
+            }
+        ]
+        
+    }, 
+
+    "statement": {
+        "active": [
+            {
+                "english": "I made syrniki yesterday.",
+                "russian": "Я приготовила сырники вчера.",
+                "comment": null
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Syrniki were made yesterday.",
+                "russian": "Сырники приготовили вчера.",
+                "comment": null
+            }
+        ]
+    },
+
+    "negation": {
+        "active": [
+            {
+                "english": "I didn't make syrniki yesterday.",
+                "russian": "Я не приготовила сырники вчера.",
+                "comment": null
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Syrniki weren't made yesterday.",
+                "russian": "Сырники не приготовили вчера.",
+                "comment": null
+            }
+        ]
+    }
+    
+  },
+
+  {
+    "meta": {
+        "tense": "Past Continuous",
+        "construction": "Subject + was/were + V-ing",
+        "description": "Используется для выражения действия, которое происходило в определённый момент в прошлом, с акцентом на его длительность, а также для описания двух одновременных действий или ситуации, когда одно действие прерывает другое.",
+        "markers": ["at 5 p.m. yesterday", "at that moment", "while", "when"]
+    },
+
+    "question": {
+        "active": [
+            {
+                "english": "Was I making syrniki at 11 o'clock yesterday?",
+                "russian": "Я готовила сырники вчера в 11 часов?",
+                "comment": "Действие в процессе в конкретный момент в прошлом."
+            },
+
+            {
+                "english": "Was I making syrniki when Stas called me yesterday?.",
+                "russian": "Стас позвонил мне, когда я готовила сырники вчера?",
+                "comment": "Ситуация, когда одно действие прерывает другое."
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Were syrniki being made at 11 o'clock yesterday?",
+                "russian": "Сырники готовились вчера в 11 часов?",
+                "comment": "Действие в процессе в конкретный момент в прошлом."
+            }
+        ]
+        
+    }, 
+
+    "statement": {
+        "active": [
+            {
+                "english": "I was making syrniki at 11 o'clock yesterday.",
+                "russian": "Я готовила сырники вчера в 11 часов.",
+                "comment": "Действие в процессе в конкретный момент в прошлом."
+            }, 
+
+            {
+                "english": "Stas called me when I was making syrniki yesterday.",
+                "russian": "Стас позвонил мне, когда я готовила сырники вчера.",
+                "comment": "Ситуация, когда одно действие прерывает другое."
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Syrniki were being made at 11 o'clock yesterday.",
+                "russian": "Сырники готовились в 11 часов вчера.",
+                "comment": "Действие в процессе в конкретный момент в прошлом."
+            }
+        ]
+    },
+
+    "negation": {
+        "active": [
+            {
+                "english": "I wasn't making syrniki at 11 o'clock yesterday.",
+                "russian": "Вчера в 11 часов я не готовила сырники.",
+                "comment": "Отрицание действия, происходившего в конкретный момент в прошлом."
+            }, 
+
+           {
+                "english": "Stas called me when I wasn't making syrniki yesterday.",
+                "russian": "Стас позвонил мне, когда я не готовила сырники вчера.",
+                "comment": "Отрицание ситуации, когда одно действие прерывает другое. (грамматически допустимо, но неестественно)"
+            }
+        ],
+
+        "passive": [
+            {
+                "english": "Syrniki weren't being made at 11 o'clock yesterday.",
+                "russian": "Сырники не готовились вчера в 11 часов.",
+                "comment": "Отрицание действия в процессе в определённый момент в прошлом."
+            }
+        ]
+    }
+    
+  }, 
+
+  {
+    "meta": {
+        "tense": "Past Perfect",
+        "construction": "Subject + had + V3 (Past Participle)",
+        "description": "Используется, когда одно действие в прошлом произошло раньше другого, или когда важен результат к определённому моменту в прошлом.",
+        "markers": ["before", "after", "by the time", "when", "just"]
+    },
+
+    "question": {
+        "active": [
+        {
+            "english": "Had I made syrniki before Dima came home?",
+            "russian": "Я приготовила сырники до того, как Дима пришёл домой?",
+            "comment": "Вопрос о действии, которое произошло раньше другого действия в прошлом."
+        }
+        ],
+
+        "passive": [
+        {
+            "english": "Had syrniki been made before Dima came home?",
+            "russian": "Сырники были приготовлены до того, как Дима пришёл домой?",
+            "comment": "Вопрос о результате действия, совершённого раньше другого действия в прошлом (страдательный залог)."
+        }
+        ]
+    },
+
+    "statement": {
+        "active": [
+        {
+            "english": "I had made syrniki before Dima came home.",
+            "russian": "Я приготовила сырники до того, как Дима пришёл домой.",
+            "comment": "Действие, которое произошло раньше другого действия в прошлом."
+        }
+        ],
+
+        "passive": [
+        {
+            "english": "Syrniki had been made before Dima came home.",
+            "russian": "Сырники были приготовлены до того, как Дима пришёл домой.",
+            "comment": "Результат действия, завершённого раньше другого действия в прошлом (страдательный залог)."
+        }
+        ]
+    },
+
+    "negation": {
+        "active": [
+        {
+            "english": "I hadn't made syrniki before Dima came home.",
+            "russian": "Я не приготовила сырники до того, как Дима пришёл домой.",
+            "comment": "Отрицание действия, которое должно было произойти раньше другого действия в прошлом."
+        }
+        ],
+
+        "passive": [
+        {
+            "english": "Syrniki hadn't been made before Dima came home.",
+            "russian": "Сырники не были приготовлены до того, как Дима пришёл домой.",
+            "comment": "Отрицание результата действия, которое должно было произойти раньше другого действия в прошлом (страдательный залог)."
+        }
+        ]
+    }  
+  },
+
+  {
+    "meta": {
+        "tense": "Past Perfect Continuous",
+        "construction": "Subject + had been + V-ing",
+        "description": "Используется, когда нужно подчеркнуть, как долго длилось действие до определённого момента в прошлом.",
+        "markers": ["for an hour", "for a long time", "before", "since", "when"]
+    },
+
+    "question": {
+        "active": [
+        {
+            "english": "Had I been making syrniki for two hours before Dima came home?",
+            "russian": "Я готовила сырники уже два часа до того, как Дима пришёл домой?",
+            "comment": "Вопрос о длительности действия, которое продолжалось до определённого момента в прошлом."
+        }
+        ],
+
+        "passive": []
+    },
+
+    "statement": {
+        "active": [
+        {
+            "english": "I had been making syrniki for two hours before Dima came home.",
+            "russian": "Я готовила сырники уже два часа до того, как Дима пришёл домой.",
+            "comment": "Действие, которое длилось определённое время до другого момента в прошлом."
+        }
+        ],
+
+        "passive": []
+    },
+
+    "negation": {
+        "active": [
+        {
+            "english": "I hadn't been making syrniki for two hours before Dima came home.",
+            "russian": "Я не готовила сырники уже два часа до того, как Дима пришёл домой.",
+            "comment": "Отрицание длительного действия, которое происходило до определённого момента в прошлом."
+        }
+        ],
+
+        "passive": []
+    }
+  }, 
+
+  {
+    "meta": {
+        "tense": "Present Simple",
+        "construction": "Subject + V1 (-s/-es для 3-го лица)",
+        "description": "Используется для выражения регулярных действий, фактов и общих истин, расписаний и программ, а также постоянного состояния.",
+        "markers": ["always", "usually", "often", "sometimes", "every day / week / year", "on Mondays"]
+    },
+
+    "question": {
+        "active": [
+        {
+            "english": "Do I usually make syrniki for Dima?",
+            "russian": "Я обычно готовлю сырники для Димы?",
+            "comment": "Вопрос о регулярном действии в настоящем."
+        },
+        {
+            "english": "Does he like to eat them?",
+            "russian": "Он любит их есть?",
+            "comment": "Вопрос о постоянном предпочтении (состоянии)."
+        },
+        {
+            "english": "Does Dima miss syrniki when you don't make them for a while?",
+            "russian": "Дима скучает по сырникам, когда ты какое-то время их не готовишь?",
+            "comment": "Вопрос о регулярной реакции на повторяющуюся ситуацию."
+        },
+        {
+            "english": "Does the ground get wet when it rains?",
+            "russian": "Земля становится мокрой, когда идёт дождь?",
+            "comment": "Общий факт / закономерность."
+        }
+        ],
+
+        "passive": [
+        {
+            "english": "Are syrniki usually made for Dima?",
+            "russian": "Сырники обычно готовят для Димы?",
+            "comment": "Вопрос о регулярном действии в пассиве."
+        }
+        ]
+    },
+
+    "statement": {
+        "active": [
+        {
+            "english": "I usually make syrniki for Dima.",
+            "russian": "Я обычно готовлю сырники для Димы.",
+            "comment": "Регулярное действие в настоящем."
+        },
+
+        {
+            "english": "He likes to eat them.",
+            "russian": "Он любит их есть.",
+            "comment": "Постоянное состояние / предпочтение."
+        },
+
+        {
+            "english": "When I don't make syrniki for a while, Dima misses them.",
+            "russian": "Когда я какое-то время не готовлю сырники, Дима по ним скучает.",
+            "comment": "Регулярная реакция на повторяющуюся ситуацию."
+        },
+        
+        {
+            "english": "When it rains the ground gets wet.",
+            "russian": "Когда идёт дождь, земля становится мокрой.",
+            "comment": "Общий факт / закономерность."
+        }
+        ],
+
+        "passive": [
+        {
+            "english": "Syrniki are often made for Dima.",
+            "russian": "Сырники часто готовят для Димы.",
+            "comment": "Регулярное действие в страдательном залоге."
+        }
+        ]
+    },
+
+    "negation": {
+        "active": [
+        {
+            "english": "I don't usually make them for myself.",
+            "russian": "Я обычно не готовлю их для себя.",
+            "comment": "Отрицание регулярного действия."
+        },
+        {
+            "english": "He doesn't like to eat them.",
+            "russian": "Он не любит их есть.",
+            "comment": "Отрицание постоянного состояния / предпочтения."
+        },
+        {
+            "english": "When I don't make syrniki for a long time, Dima starts missing them.",
+            "russian": "Когда я долго не готовлю сырники, Дима начинает по ним скучать.",
+            "comment": "Регулярная реакция на длительное отсутствие действия."
+        },
+        {
+            "english": "The ground doesn't get wet when it doesn't rain.",
+            "russian": "Земля не становится мокрой, когда не идёт дождь.",
+            "comment": "Отрицание закономерности."
+        }
+        ],
+
+        "passive": [
+        {
+            "english": "Syrniki aren't often made for Dima.",
+            "russian": "Сырники не часто готовят для Димы.",
+            "comment": "Отрицание регулярного действия в пассиве."
+        }
+        ]
+    }
+  }
+
+]
